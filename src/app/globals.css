@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Lines align to whole pixels on digit-heavy admin tables. */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
