@@ -87,11 +87,11 @@ export default function LandingFooter() {
             <ul className="mt-4 space-y-2.5 text-sm text-white/55">
               <li className="flex items-center gap-2">
                 <Mail size={14} className="shrink-0 text-gold" />
-                hello@stayqr.com
+                rajumesh8969457707@gmail.com
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={14} className="shrink-0 text-gold" />
-                +91 98765 43210
+                +91 89694 57707
               </li>
               <li className="flex items-center gap-2">
                 <MapPin size={14} className="shrink-0 text-gold" />
