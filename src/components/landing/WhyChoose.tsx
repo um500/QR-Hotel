@@ -43,17 +43,20 @@ export default function WhyChoose() {
 
         <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-14">
           <div
-            className="relative flex min-h-[260px] items-end overflow-hidden rounded-2xl p-5 sm:min-h-[300px]"
+            className="relative flex min-h-[280px] items-end overflow-hidden rounded-2xl p-5 sm:min-h-[340px]"
             style={{
               backgroundImage:
-                "linear-gradient(160deg, #22334f 0%, #182742 55%, #0f1b2e 100%)",
+                "url('https://images.unsplash.com/photo-1702255489644-392758161f1f?fm=jpg&q=70&w=2000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           >
             <div
-              className="pointer-events-none absolute inset-0 opacity-40"
+              className="pointer-events-none absolute inset-0"
               style={{
                 backgroundImage:
-                  "radial-gradient(40% 50% at 20% 20%, rgba(184,135,47,0.35), transparent 70%)",
+                  "linear-gradient(180deg, rgba(15,27,46,0.15) 0%, rgba(15,27,46,0.1) 45%, rgba(10,16,30,0.85) 100%), radial-gradient(40% 50% at 15% 10%, rgba(184,135,47,0.25), transparent 70%)",
               }}
               aria-hidden="true"
             />

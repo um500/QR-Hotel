@@ -17,19 +17,12 @@ export default function Hero() {
       className="relative bg-navy"
       style={{
         backgroundImage:
-          "radial-gradient(60% 55% at 85% 20%, rgba(184,135,47,0.20), transparent 60%), radial-gradient(45% 50% at 95% 70%, rgba(184,135,47,0.12), transparent 65%), radial-gradient(70% 70% at 0% 100%, rgba(23,38,66,0.9), transparent 60%)",
+          "radial-gradient(60% 55% at 85% 20%, rgba(184,135,47,0.22), transparent 60%), linear-gradient(100deg, rgba(10,16,30,0.94) 0%, rgba(12,20,36,0.82) 38%, rgba(15,27,46,0.55) 62%, rgba(15,27,46,0.35) 100%), url('https://images.unsplash.com/photo-1552858725-2758b5fb1286?fm=jpg&q=70&w=2400&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D')",
+        backgroundSize: "auto, auto, cover",
+        backgroundPosition: "center, center, center",
+        backgroundRepeat: "no-repeat, no-repeat, no-repeat",
       }}
     >
-      <div
-        className="pointer-events-none absolute inset-0 opacity-[0.07]"
-        style={{
-          backgroundImage:
-            "linear-gradient(rgba(255,255,255,0.4) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.4) 1px, transparent 1px)",
-          backgroundSize: "42px 42px",
-        }}
-        aria-hidden="true"
-      />
-
       <LandingNavbar />
 
       <div className="relative mx-auto grid max-w-7xl gap-12 px-5 pb-20 pt-4 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:px-10 lg:pb-28">
