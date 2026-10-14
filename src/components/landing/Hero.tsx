@@ -24,6 +24,8 @@ export default function Hero() {
       }}
     >
       <LandingNavbar />
+      {/* Spacer: LandingNavbar is fixed, so this reserves its height in normal flow */}
+      <div className="h-[81px] lg:h-[83px]" aria-hidden="true" />
 
       <div className="relative mx-auto grid max-w-7xl gap-12 px-5 pb-20 pt-4 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:px-10 lg:pb-28">
         <div className="flex flex-col justify-center">
