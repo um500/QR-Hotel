@@ -56,7 +56,7 @@ export default function Features() {
   return (
     <section
       id="about"
-      className="bg-paper px-5 pb-20 pt-24 sm:px-8 sm:pt-28 lg:px-10"
+      className="bg-paper px-5 pb-20 pt-16 sm:px-8 sm:pt-20 lg:px-10"
     >
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto max-w-xl text-center">
