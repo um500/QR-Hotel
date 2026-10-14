@@ -93,7 +93,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="relative z-20 mx-auto -mb-6 hidden max-w-5xl px-5 sm:block lg:-mb-8">
+      <div className="relative z-20 mx-auto -mb-[46px] hidden max-w-5xl px-5 sm:block lg:-mb-[42px]">
         <div className="grid grid-cols-5 divide-x divide-line rounded-2xl bg-white px-4 py-6 shadow-pop">
           {STATS.map(({ icon: Icon, label, value }) => (
             <div key={label} className="flex items-center gap-3 px-3">
@@ -111,7 +111,7 @@ export default function Hero() {
       </div>
 
       {/* Mobile stats: stacked 2-up grid instead of the floating 5-col strip */}
-      <div className="relative z-20 mx-auto -mb-5 max-w-5xl px-5 sm:hidden">
+      <div className="relative z-20 mx-auto -mb-[76px] max-w-5xl px-5 sm:hidden">
         <div className="grid grid-cols-2 gap-3 rounded-2xl bg-white p-4 shadow-pop">
           {STATS.map(({ icon: Icon, label, value }) => (
             <div key={label} className="flex items-center gap-2.5">
