@@ -1,4 +1,4 @@
-import { Check } from "lucide-react";
+import { ArrowRight, Check } from "lucide-react";
 
 function GuestMiniMock() {
   return (
@@ -146,7 +146,8 @@ export default function Showcase() {
                         : "border border-gold text-gold hover:bg-gold-soft"
                     }`}
                   >
-                    {cta} →
+                    {cta}
+                    <ArrowRight size={15} />
                   </a>
                 </div>
               </div>

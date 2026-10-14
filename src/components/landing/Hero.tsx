@@ -1,13 +1,14 @@
-import { Play } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
+import { Bell, Clock, Infinity as InfinityIcon, Play, Smartphone, Zap } from "lucide-react";
 import LandingNavbar from "./LandingNavbar";
 import PhoneMockup from "./PhoneMockup";
 
-const STATS = [
-  { icon: "⚡", label: "Setup in", value: "10 Minutes" },
-  { icon: "📱", label: "Zero", value: "App Downloads" },
-  { icon: "🔔", label: "Real-time", value: "Request Alerts" },
-  { icon: "∞", label: "Unlimited", value: "Rooms" },
-  { icon: "🕐", label: "24/7", value: "Guest Access" },
+const STATS: { icon: LucideIcon; label: string; value: string }[] = [
+  { icon: Zap, label: "Setup in", value: "10 Minutes" },
+  { icon: Smartphone, label: "Zero", value: "App Downloads" },
+  { icon: Bell, label: "Real-time", value: "Request Alerts" },
+  { icon: InfinityIcon, label: "Unlimited", value: "Rooms" },
+  { icon: Clock, label: "24/7", value: "Guest Access" },
 ];
 
 export default function Hero() {
@@ -94,13 +95,15 @@ export default function Hero() {
 
       <div className="relative z-20 mx-auto -mb-10 hidden max-w-5xl px-5 sm:block lg:-mb-12">
         <div className="grid grid-cols-5 divide-x divide-line rounded-2xl bg-white px-4 py-6 shadow-pop">
-          {STATS.map((s) => (
-            <div key={s.label} className="flex items-center gap-3 px-3">
-              <span className="text-lg">{s.icon}</span>
+          {STATS.map(({ icon: Icon, label, value }) => (
+            <div key={label} className="flex items-center gap-3 px-3">
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold-soft text-gold">
+                <Icon size={16} />
+              </span>
               <p className="text-xs leading-tight text-ink-dim">
-                {s.label}
+                {label}
                 <br />
-                <span className="font-semibold text-ink">{s.value}</span>
+                <span className="font-semibold text-ink">{value}</span>
               </p>
             </div>
           ))}
@@ -110,13 +113,15 @@ export default function Hero() {
       {/* Mobile stats: stacked 2-up grid instead of the floating 5-col strip */}
       <div className="relative z-20 mx-auto -mb-8 max-w-5xl px-5 sm:hidden">
         <div className="grid grid-cols-2 gap-3 rounded-2xl bg-white p-4 shadow-pop">
-          {STATS.map((s) => (
-            <div key={s.label} className="flex items-center gap-2.5">
-              <span className="text-base">{s.icon}</span>
+          {STATS.map(({ icon: Icon, label, value }) => (
+            <div key={label} className="flex items-center gap-2.5">
+              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gold-soft text-gold">
+                <Icon size={14} />
+              </span>
               <p className="text-[11px] leading-tight text-ink-dim">
-                {s.label}
+                {label}
                 <br />
-                <span className="font-semibold text-ink">{s.value}</span>
+                <span className="font-semibold text-ink">{value}</span>
               </p>
             </div>
           ))}
