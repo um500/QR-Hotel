@@ -45,8 +45,7 @@ export default function WhyChoose() {
           <div
             className="relative flex min-h-[280px] items-end overflow-hidden rounded-2xl p-5 sm:min-h-[340px]"
             style={{
-              backgroundImage:
-                "url('https://images.unsplash.com/photo-1702255489644-392758161f1f?fm=jpg&q=70&w=2000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D')",
+              backgroundImage: "url('/images/landing/whychoose-checkin.jpg')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",

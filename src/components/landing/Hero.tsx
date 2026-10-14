@@ -17,7 +17,7 @@ export default function Hero() {
       className="relative bg-navy"
       style={{
         backgroundImage:
-          "radial-gradient(60% 55% at 85% 20%, rgba(184,135,47,0.22), transparent 60%), linear-gradient(100deg, rgba(10,16,30,0.94) 0%, rgba(12,20,36,0.82) 38%, rgba(15,27,46,0.55) 62%, rgba(15,27,46,0.35) 100%), url('https://images.unsplash.com/photo-1552858725-2758b5fb1286?fm=jpg&q=70&w=2400&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D')",
+          "radial-gradient(60% 55% at 85% 20%, rgba(184,135,47,0.22), transparent 60%), linear-gradient(100deg, rgba(10,16,30,0.94) 0%, rgba(12,20,36,0.82) 38%, rgba(15,27,46,0.55) 62%, rgba(15,27,46,0.35) 100%), url('/images/landing/hero-bedroom.jpg')",
         backgroundSize: "auto, auto, cover",
         backgroundPosition: "center, center, center",
         backgroundRepeat: "no-repeat, no-repeat, no-repeat",
@@ -60,24 +60,15 @@ export default function Hero() {
         </div>
 
         <div className="relative flex items-center justify-center pt-4 lg:pt-0">
-          <div className="absolute z-0 hidden w-44 translate-x-20 translate-y-28 -rotate-3 rounded-2xl bg-white/95 p-3.5 shadow-pop sm:block lg:translate-x-24">
-            <p className="font-display text-[10px] font-semibold tracking-[0.1em] text-navy">
-              THE GRAND ORCHID
-            </p>
-            <p className="text-[8px] tracking-[0.2em] text-ink-faint">HOTEL</p>
-            <div
-              className="my-2.5 aspect-square w-full rounded-md bg-navy"
-              style={{
-                backgroundImage:
-                  "repeating-linear-gradient(90deg, #0f1b2e 0 4px, #f6f5f1 4px 8px), repeating-linear-gradient(0deg, #0f1b2e 0 4px, transparent 4px 8px)",
-              }}
-              aria-hidden="true"
+          <div
+            className="absolute z-0 hidden aspect-[4/5] w-40 translate-x-20 translate-y-28 -rotate-3 overflow-hidden rounded-2xl bg-white shadow-pop sm:block lg:translate-x-24"
+            aria-hidden="true"
+          >
+            <img
+              src="/images/landing/qr-stand.jpg"
+              alt=""
+              className="h-full w-full scale-[1.7] object-cover object-[60%_45%]"
             />
-            <p className="text-center text-[8px] font-medium leading-tight text-ink-dim">
-              SCAN TO EXPLORE
-              <br />
-              OUR SERVICES
-            </p>
           </div>
 
           <div className="relative z-10">

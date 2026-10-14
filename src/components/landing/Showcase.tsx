@@ -2,63 +2,24 @@ import { ArrowRight, Check } from "lucide-react";
 
 function GuestMiniMock() {
   return (
-    <div className="flex h-full items-center justify-center bg-gradient-to-br from-navy-light to-navy p-8">
-      <div className="w-36 rounded-[1.6rem] border-4 border-navy-lighter bg-paper p-1 shadow-pop">
-        <div className="rounded-[1.3rem] bg-white p-3">
-          <p className="text-center text-[8px] font-semibold tracking-wide text-gold">
-            ROOM 101
-          </p>
-          <div className="mt-2 flex items-center gap-1.5 rounded-lg bg-brand-soft p-1.5">
-            <span className="h-4 w-4 rounded-full bg-brand" />
-            <span className="h-1.5 flex-1 rounded bg-brand/30" />
-          </div>
-          <div className="mt-1.5 grid grid-cols-3 gap-1">
-            {Array.from({ length: 6 }).map((_, i) => (
-              <span key={i} className="h-5 rounded bg-paper" />
-            ))}
-          </div>
-        </div>
-      </div>
+    <div className="flex h-full min-h-[240px] items-center justify-center bg-navy p-6">
+      <img
+        src="/images/landing/guest-portal-phone.webp"
+        alt="DeskQR guest portal on a phone showing the Room 101 welcome screen"
+        className="h-56 w-auto object-contain drop-shadow-2xl sm:h-64"
+      />
     </div>
   );
 }
 
 function AdminMiniMock() {
   return (
-    <div className="flex h-full items-center justify-center bg-gradient-to-br from-paper to-line/40 p-6 sm:p-8">
-      <div className="w-full max-w-[300px] overflow-hidden rounded-xl bg-white shadow-pop ring-1 ring-line">
-        <div className="flex h-7 items-center gap-1.5 bg-navy px-3">
-          <span className="h-2 w-2 rounded-full bg-white/30" />
-          <span className="h-2 w-2 rounded-full bg-white/30" />
-          <span className="h-2 w-2 rounded-full bg-white/30" />
-        </div>
-        <div className="flex">
-          <div className="w-10 space-y-2 border-r border-line bg-paper p-2">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <span
-                key={i}
-                className={`block h-1.5 rounded ${i === 0 ? "bg-gold" : "bg-line"}`}
-              />
-            ))}
-          </div>
-          <div className="flex-1 p-3">
-            <p className="text-[9px] font-semibold text-ink">Live Requests</p>
-            <div className="mt-2 space-y-1.5">
-              {["Room 102", "Room 108", "Room 203"].map((r) => (
-                <div
-                  key={r}
-                  className="flex items-center justify-between rounded bg-paper px-2 py-1.5"
-                >
-                  <span className="text-[8px] text-ink-dim">{r}</span>
-                  <span className="rounded-full bg-success-soft px-1.5 py-0.5 text-[7px] font-medium text-success">
-                    Active
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
+    <div className="h-full min-h-[240px] overflow-hidden bg-ink">
+      <img
+        src="/images/landing/admin-dashboard.jpg"
+        alt="DeskQR admin dashboard showing room occupancy and live bookings on a laptop"
+        className="h-full w-full object-cover"
+      />
     </div>
   );
 }
