@@ -51,7 +51,7 @@ export default function LandingNavbar() {
         <a href="/" className="flex items-center gap-2.5">
           <MarkIcon className="h-7 w-7 text-gold" />
           <span className="font-display text-xl font-semibold tracking-wide text-white">
-            Stay<span className="text-gold">QR</span>
+            Desk<span className="text-gold">QR</span>
           </span>
         </a>
 
@@ -109,7 +109,7 @@ export default function LandingNavbar() {
       >
         <div className="flex items-center justify-between">
           <span className="font-display text-lg font-semibold text-white">
-            Stay<span className="text-gold">QR</span>
+            Desk<span className="text-gold">QR</span>
           </span>
           <button
             type="button"

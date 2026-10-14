@@ -19,7 +19,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "StayQR",
+  title: "DeskQR",
   description: "Scan your room's QR code for WiFi, services and more.",
 };
 

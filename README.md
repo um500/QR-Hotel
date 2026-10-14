@@ -1,4 +1,4 @@
-# StayQR
+# DeskQR
 
 Single-hotel room QR system. Guest scans a room's QR, no login, sees WiFi,
 services and nearby places; can send a request that shows up live on the

@@ -37,7 +37,7 @@ export default function HowItWorks() {
             Simple Setup. Big Impact.
           </span>
           <h2 className="mt-3 font-display text-3xl font-semibold text-navy sm:text-4xl">
-            How <span className="text-gold">StayQR</span> Works
+            How <span className="text-gold">DeskQR</span> Works
           </h2>
           <p className="mt-3 text-[15px] text-ink-dim">
             From setup to service, it&apos;s simple, fast and hassle-free.

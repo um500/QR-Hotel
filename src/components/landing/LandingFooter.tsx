@@ -42,7 +42,7 @@ export default function LandingFooter() {
             <div className="flex items-center gap-2">
               <MarkIcon className="h-6 w-6 text-gold" />
               <span className="font-display text-lg font-semibold text-white">
-                Stay<span className="text-gold">QR</span>
+                Desk<span className="text-gold">QR</span>
               </span>
             </div>
             <p className="mt-3 text-sm text-white/55">
@@ -118,7 +118,7 @@ export default function LandingFooter() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 text-xs text-white/45 sm:flex-row">
-          <p>© 2026 StayQR. All rights reserved.</p>
+          <p>© 2026 DeskQR. All rights reserved.</p>
           <div className="flex gap-5">
             <a href="#" className="hover:text-gold">
               Privacy Policy

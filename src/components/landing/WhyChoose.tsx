@@ -34,7 +34,7 @@ export default function WhyChoose() {
           A Better Experience for Your Guests
         </span>
         <h2 className="mt-3 max-w-lg font-display text-3xl font-semibold text-white sm:text-4xl">
-          Why Hotels Choose <span className="text-gold">StayQR</span>
+          Why Hotels Choose <span className="text-gold">DeskQR</span>
         </h2>
         <p className="mt-3 max-w-lg text-[15px] text-white/65">
           Give your guests a modern, convenient and memorable stay while
@@ -63,7 +63,7 @@ export default function WhyChoose() {
               </p>
               <p className="-mt-2 text-sm leading-relaxed text-white/85">
                 Our guests love the ease of access. We get fewer calls and
-                faster service — StayQR has truly improved our guest
+                faster service — DeskQR has truly improved our guest
                 experience.
               </p>
               <p className="mt-3 text-sm font-semibold text-white">

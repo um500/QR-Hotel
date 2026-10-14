@@ -1,7 +1,7 @@
 "use client";
 
 // Shared presentational bits for the guest app — mirrors the admin's
-// src/components/ui.tsx so both halves of StayQR read as one product.
+// src/components/ui.tsx so both halves of DeskQR read as one product.
 
 import { useEffect } from "react";
 import { ArrowLeft, Minus, Plus, X } from "lucide-react";

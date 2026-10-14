@@ -101,7 +101,7 @@ export default function Showcase() {
             See the Experience
           </span>
           <h2 className="mt-3 font-display text-3xl font-semibold text-navy sm:text-4xl">
-            See <span className="text-gold">StayQR</span> in Action
+            See <span className="text-gold">DeskQR</span> in Action
           </h2>
           <p className="mt-3 text-[15px] text-ink-dim">
             A seamless experience for your guests, and a powerful dashboard

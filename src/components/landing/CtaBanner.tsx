@@ -20,7 +20,7 @@ export default function CtaBanner() {
             Ready to Modernize Your Guest Experience?
           </h2>
           <p className="mt-2 text-sm text-white/65">
-            Join hotels that are making stays smarter with StayQR.
+            Join hotels that are making stays smarter with DeskQR.
           </p>
         </div>
         <div className="flex shrink-0 flex-wrap gap-3">

@@ -13,7 +13,7 @@ const config: Config = {
         accent: "#b5781f",
         accent2: "#1f8a79",
 
-        // Admin design system — matches the approved StayQR Admin mockups.
+        // Admin design system — matches the approved DeskQR Admin mockups.
         navy: {
           DEFAULT: "#0f1b2e",
           light: "#182742",
