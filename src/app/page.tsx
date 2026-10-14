@@ -1,17 +1,23 @@
+import CtaBanner from "@/components/landing/CtaBanner";
+import Features from "@/components/landing/Features";
+import Hero from "@/components/landing/Hero";
+import HowItWorks from "@/components/landing/HowItWorks";
+import LandingFooter from "@/components/landing/LandingFooter";
+import Pricing from "@/components/landing/Pricing";
+import Showcase from "@/components/landing/Showcase";
+import WhyChoose from "@/components/landing/WhyChoose";
+
 export default function HomePage() {
   return (
-    <main className="mx-auto flex min-h-screen max-w-md flex-col items-center justify-center gap-3 px-6 text-center">
-      <h1 className="text-2xl font-bold">StayQR</h1>
-      <p className="text-sm text-neutral-500">
-        Room page is reached by scanning the QR card in your room — there's
-        nothing to browse to here directly.
-      </p>
-      <a
-        href="/admin/login"
-        className="mt-4 text-sm font-medium text-accent underline underline-offset-4"
-      >
-        Admin login
-      </a>
+    <main className="overflow-x-hidden bg-paper">
+      <Hero />
+      <Features />
+      <HowItWorks />
+      <WhyChoose />
+      <Showcase />
+      <Pricing />
+      <CtaBanner />
+      <LandingFooter />
     </main>
   );
 }
